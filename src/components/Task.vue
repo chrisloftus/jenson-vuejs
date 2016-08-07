@@ -30,9 +30,7 @@ export default {
       addComment
     },
     getters: {
-      task: {
-        comments: state => state.all
-      }
+      comments: state => state.all
     }
   },
 
